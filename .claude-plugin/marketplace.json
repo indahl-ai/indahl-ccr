@@ -1,0 +1,17 @@
+{
+  "name": "indahl-ccr",
+  "owner": {
+    "name": "Heuremen LLC",
+    "url": "https://indahl.ai"
+  },
+  "plugins": [
+    {
+      "name": "indahl-ccr",
+      "source": "./",
+      "description": "Custody chain receipts for agent work: a hash-chained record in .ccr/ of every prompt, tool call, read and write, with approvals and releases bound to the hashes they cover. Release reads SAME, MOVED, CHANGED, CANNOT_TELL or GAP. Nothing is sent outside your project.",
+      "version": "1.0.0",
+      "category": "security",
+      "homepage": "https://indahl.ai/connect"
+    }
+  ]
+}
